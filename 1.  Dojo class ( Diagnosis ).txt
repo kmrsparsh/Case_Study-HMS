@@ -1,0 +1,40 @@
+package com.dao.cs2;
+
+public class Dojo {
+	
+	int dId; // Diagnosis Id ( Test Id )
+	String dname;
+	Float chargeOfTest;
+	
+	
+	public int getdId() {
+		return dId;
+	}
+	public void setdId(int dId) {
+		this.dId = dId;
+	}
+	public String getDname() {
+		return dname;
+	}
+	public void setDname(String dname) {
+		this.dname = dname;
+	}
+	public Float getChargeOfTest() {
+		return chargeOfTest;
+	}
+	public void setChargeOfTest(Float chargeOfTest) {
+		this.chargeOfTest = chargeOfTest;
+	}
+	
+	Dojo()
+	{
+		
+	}
+	
+	Dojo(int dId,String dname,Float chargeOfTest)
+	{
+		this.dId = dId;
+		this.dname = dname;
+		this.chargeOfTest = chargeOfTest;
+	}
+}

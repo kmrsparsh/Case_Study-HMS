@@ -1,0 +1,77 @@
+package com.bean.cs2;
+
+public class Mojo {
+
+	int mId;
+	String mname;
+	int quantity_used;
+	int quantity_avl;
+	float rateofmed;
+	float amt;
+	String avl_status;
+	
+	
+	public int getmId() {
+		return mId;
+	}
+	public void setmId(int mId) {
+		this.mId = mId;
+	}
+	public String getMname() {
+		return mname;
+	}
+	public void setMname(String mname) {
+		this.mname = mname;
+	}
+	public int getQuantity_used() {
+		return quantity_used;
+	}
+	public void setQuantity_used(int quantity_used) {
+		this.quantity_used = quantity_used;
+	}
+	public int getQuantity_avl() {
+		return quantity_avl;
+	}
+	public void setQuantity_avl(int quantity_avl) {
+		this.quantity_avl = quantity_avl;
+	}
+	public float getRateofmed() {
+		return rateofmed;
+	}
+	public void setRateofmed(float rateofmed) {
+		this.rateofmed = rateofmed;
+	}
+	public float getAmt() {
+		return amt;
+	}
+	public void setAmt(float amt) {
+		this.amt = amt;
+	}
+	public String getAvl_status() {
+		return avl_status;
+	}
+	public void setAvl_status(String avl_status) {
+		this.avl_status = avl_status;
+	}
+	
+	public Mojo()
+	{
+		
+	}
+	
+	public Mojo(int mId,
+	String mname,
+	int quantity_used,
+	int quantity_avl,
+	float rateofmed,
+	String avl_status)
+	{
+		this.mId = mId;
+		this.mname = mname;
+		this.quantity_used = quantity_used;
+		this.quantity_avl = quantity_avl;
+		this.rateofmed = rateofmed;
+		this.avl_status = avl_status;
+	}
+	
+}
